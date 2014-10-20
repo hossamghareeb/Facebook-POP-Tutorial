@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F7FC441D-014F-4D99-A6B5-A747CF4D6422</string>
+	<key>IDESourceControlProjectName</key>
+	<string>POPDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB0D7C3659557FA563FD533E45EA7DA58782A4BB</key>
+		<string>https://github.com/most-wanted/PopTutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>POPDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB0D7C3659557FA563FD533E45EA7DA58782A4BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/most-wanted/PopTutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB0D7C3659557FA563FD533E45EA7DA58782A4BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB0D7C3659557FA563FD533E45EA7DA58782A4BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PopTutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
