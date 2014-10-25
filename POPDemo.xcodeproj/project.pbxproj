@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA56545419F5884400D4AED6 /* ExamplesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56545319F5884400D4AED6 /* ExamplesListViewController.m */; };
+		DA56545719F58AE500D4AED6 /* ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56545619F58AE500D4AED6 /* ExampleCell.m */; };
 		DA83995319F42EAE005F6D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA83995219F42EAE005F6D9A /* main.m */; };
 		DA83995619F42EAE005F6D9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA83995519F42EAE005F6D9A /* AppDelegate.m */; };
 		DA83995919F42EAE005F6D9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA83995819F42EAE005F6D9A /* ViewController.m */; };
@@ -50,6 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA56545219F5884400D4AED6 /* ExamplesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesListViewController.h; sourceTree = "<group>"; };
+		DA56545319F5884400D4AED6 /* ExamplesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesListViewController.m; sourceTree = "<group>"; };
+		DA56545519F58AE500D4AED6 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
+		DA56545619F58AE500D4AED6 /* ExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCell.m; sourceTree = "<group>"; };
 		DA83994D19F42EAE005F6D9A /* POPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA83995119F42EAE005F6D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA83995219F42EAE005F6D9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,6 +149,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA56545019F5880900D4AED6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA56545119F5881B00D4AED6 /* ExamplesListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA56545119F5881B00D4AED6 /* ExamplesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA56545519F58AE500D4AED6 /* ExampleCell.h */,
+				DA56545619F58AE500D4AED6 /* ExampleCell.m */,
+				DA56545219F5884400D4AED6 /* ExamplesListViewController.h */,
+				DA56545319F5884400D4AED6 /* ExamplesListViewController.m */,
+			);
+			path = ExamplesListViewController;
+			sourceTree = "<group>";
+		};
 		DA83994419F42EAE005F6D9A = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +192,7 @@
 		DA83994F19F42EAE005F6D9A /* POPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DA56545019F5880900D4AED6 /* ViewControllers */,
 				DA8399D319F4314D005F6D9A /* POP */,
 				DA83995419F42EAE005F6D9A /* AppDelegate.h */,
 				DA83995519F42EAE005F6D9A /* AppDelegate.m */,
@@ -387,11 +413,13 @@
 			files = (
 				DA83995919F42EAE005F6D9A /* ViewController.m in Sources */,
 				DA839A1319F4314D005F6D9A /* POPAnimationRuntime.mm in Sources */,
+				DA56545719F58AE500D4AED6 /* ExampleCell.m in Sources */,
 				DA839A1F19F4314D005F6D9A /* POPVector.mm in Sources */,
 				DA839A1019F4314D005F6D9A /* POPAnimation.mm in Sources */,
 				DA839A1419F4314D005F6D9A /* POPAnimationTracer.mm in Sources */,
 				DA83995619F42EAE005F6D9A /* AppDelegate.m in Sources */,
 				DA839A1A19F4314D005F6D9A /* POPGeometry.mm in Sources */,
+				DA56545419F5884400D4AED6 /* ExamplesListViewController.m in Sources */,
 				DA839A2019F4314D005F6D9A /* TransformationMatrix.cpp in Sources */,
 				DA839A1219F4314D005F6D9A /* POPAnimationExtras.mm in Sources */,
 				DA839A1119F4314D005F6D9A /* POPAnimationEvent.mm in Sources */,
@@ -606,6 +634,7 @@
 				DA83997219F42EAE005F6D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA83997319F42EAE005F6D9A /* Build configuration list for PBXNativeTarget "POPDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +643,7 @@
 				DA83997519F42EAE005F6D9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
