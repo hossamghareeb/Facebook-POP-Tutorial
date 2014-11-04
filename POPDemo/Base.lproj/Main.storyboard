@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LQs-8H-0wZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LQs-8H-0wZ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Examples-->
+        <!--Pop Examples-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ExamplesListViewController" sceneMemberID="viewController">
@@ -43,7 +43,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Examples" id="oPp-0D-uDs"/>
+                    <navigationItem key="navigationItem" title="Pop Examples" id="oPp-0D-uDs"/>
                     <connections>
                         <outlet property="examplesTableView" destination="s0Y-KT-M6F" id="ceV-JR-wk5"/>
                     </connections>
@@ -51,6 +51,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="694" y="332"/>
+        </scene>
+        <!--Facebook Button Animation View Controller-->
+        <scene sceneID="LEO-6E-d0U">
+            <objects>
+                <viewController id="orR-zS-1C7" customClass="FacebookButtonAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pC3-Ja-O8N"/>
+                        <viewControllerLayoutGuide type="bottom" id="cBV-0K-UvX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1tp-PB-iVp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Type a message...." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kSn-uy-w3H">
+                                <rect key="frame" x="16" y="64" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4nt-t6-0n8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069" y="331"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="L1T-hh-qgo">

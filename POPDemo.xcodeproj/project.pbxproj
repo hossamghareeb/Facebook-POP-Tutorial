@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA070D9719FBFAD70075A4B7 /* FacebookButtonAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA070D9619FBFAD70075A4B7 /* FacebookButtonAnimationViewController.m */; };
 		DA56545419F5884400D4AED6 /* ExamplesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56545319F5884400D4AED6 /* ExamplesListViewController.m */; };
 		DA56545719F58AE500D4AED6 /* ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56545619F58AE500D4AED6 /* ExampleCell.m */; };
 		DA83995319F42EAE005F6D9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA83995219F42EAE005F6D9A /* main.m */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA070D9519FBFAD70075A4B7 /* FacebookButtonAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookButtonAnimationViewController.h; sourceTree = "<group>"; };
+		DA070D9619FBFAD70075A4B7 /* FacebookButtonAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookButtonAnimationViewController.m; sourceTree = "<group>"; };
 		DA56545219F5884400D4AED6 /* ExamplesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesListViewController.h; sourceTree = "<group>"; };
 		DA56545319F5884400D4AED6 /* ExamplesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesListViewController.m; sourceTree = "<group>"; };
 		DA56545519F58AE500D4AED6 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
@@ -149,9 +152,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA070D9419FBFAB40075A4B7 /* FacebookButtonAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA070D9519FBFAD70075A4B7 /* FacebookButtonAnimationViewController.h */,
+				DA070D9619FBFAD70075A4B7 /* FacebookButtonAnimationViewController.m */,
+			);
+			path = FacebookButtonAnimationViewController;
+			sourceTree = "<group>";
+		};
 		DA56545019F5880900D4AED6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DA070D9419FBFAB40075A4B7 /* FacebookButtonAnimationViewController */,
 				DA56545119F5881B00D4AED6 /* ExamplesListViewController */,
 			);
 			path = ViewControllers;
@@ -434,6 +447,7 @@
 				DA839A1719F4314D005F6D9A /* POPCGUtils.mm in Sources */,
 				DA839A1C19F4314D005F6D9A /* POPMath.mm in Sources */,
 				DA839A1819F4314D005F6D9A /* POPCustomAnimation.mm in Sources */,
+				DA070D9719FBFAD70075A4B7 /* FacebookButtonAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

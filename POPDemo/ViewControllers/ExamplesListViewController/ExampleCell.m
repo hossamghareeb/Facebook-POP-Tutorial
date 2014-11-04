@@ -31,16 +31,16 @@
         POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
         scaleAnimation.duration = 0.1;
         scaleAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(1, 1)];
-        [self.textLabel pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
+        [self.textLabel pop_addAnimation:scaleAnimation forKey:@"scalingUp"];
         
         
         
     } else {
-        POPSpringAnimation *scaleAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
-        scaleAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.9, 0.9)];
-        scaleAnimation.velocity = [NSValue valueWithCGPoint:CGPointMake(2, 2)];
-        scaleAnimation.springBounciness = 20.f;
-        [self.textLabel pop_addAnimation:scaleAnimation forKey:@"scaleAnimation"];
+        POPSpringAnimation *sprintAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+        sprintAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.9, 0.9)];
+        sprintAnimation.velocity = [NSValue valueWithCGPoint:CGPointMake(2, 2)];
+        sprintAnimation.springBounciness = 20.f;
+        [self.textLabel pop_addAnimation:sprintAnimation forKey:@"springAnimation"];
     }
 }
 
