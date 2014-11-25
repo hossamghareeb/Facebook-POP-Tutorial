@@ -47,6 +47,7 @@
                     <connections>
                         <outlet property="examplesTableView" destination="s0Y-KT-M6F" id="ceV-JR-wk5"/>
                         <segue destination="orR-zS-1C7" kind="push" identifier="openFB" id="guk-jP-X0q"/>
+                        <segue destination="OLz-pK-ET8" kind="push" identifier="openWrongPass" id="xef-cX-Vqh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -133,6 +134,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nt-t6-0n8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1069" y="331"/>
+        </scene>
+        <!--Wrong Password-->
+        <scene sceneID="g85-S6-KxF">
+            <objects>
+                <viewController id="OLz-pK-ET8" customClass="WrongPasswordViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="law-Cc-deq"/>
+                        <viewControllerLayoutGuide type="bottom" id="Scz-lS-KUv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y4h-sb-MBl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6LD-Vz-8lC">
+                                <rect key="frame" x="68" y="114" width="184" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="s2Z-ns-rTj"/>
+                                    <constraint firstAttribute="width" constant="184" id="zff-Bc-P0q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9R-GV-JZC">
+                                <rect key="frame" x="107" y="179" width="106" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Kww-KX-dlV"/>
+                                    <constraint firstAttribute="width" constant="106" id="kk1-OC-1gk"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickOnLoginButton:" destination="OLz-pK-ET8" eventType="touchUpInside" id="kZA-Na-bET"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="m9R-GV-JZC" secondAttribute="centerX" id="2y3-ye-DiY"/>
+                            <constraint firstItem="6LD-Vz-8lC" firstAttribute="centerX" secondItem="y4h-sb-MBl" secondAttribute="centerX" id="Iew-QV-cKK"/>
+                            <constraint firstItem="6LD-Vz-8lC" firstAttribute="top" secondItem="y4h-sb-MBl" secondAttribute="top" constant="114" id="qlV-IE-pFb"/>
+                            <constraint firstItem="m9R-GV-JZC" firstAttribute="top" secondItem="6LD-Vz-8lC" secondAttribute="bottom" constant="35" id="v5q-CZ-NYX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wrong Password" id="Kvo-Za-6W7"/>
+                    <connections>
+                        <outlet property="passwordTextField" destination="6LD-Vz-8lC" id="ZYF-Pf-20j"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xgu-rf-rGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077" y="1042"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="L1T-hh-qgo">

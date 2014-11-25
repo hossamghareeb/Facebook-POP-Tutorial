@@ -39,6 +39,7 @@
 		DA839A2219F43221005F6D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2119F43221005F6D9A /* UIKit.framework */; };
 		DA839A2419F43243005F6D9A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2319F43243005F6D9A /* CoreFoundation.framework */; };
 		DA839A2619F43248005F6D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2519F43248005F6D9A /* Foundation.framework */; };
+		DAD244EA1A24848300A6B512 /* WrongPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD244E91A24848300A6B512 /* WrongPasswordViewController.m */; };
 		DADF5B941A09536C006BABAB /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = DADF5B921A09536C006BABAB /* like.png */; };
 		DADF5B951A09536C006BABAB /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DADF5B931A09536C006BABAB /* like@2x.png */; };
 		DADF5B971A0953CD006BABAB /* like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DADF5B961A0953CD006BABAB /* like@3x.png */; };
@@ -130,6 +131,8 @@
 		DA839A2119F43221005F6D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA839A2319F43243005F6D9A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DA839A2519F43248005F6D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAD244E81A24848300A6B512 /* WrongPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrongPasswordViewController.h; sourceTree = "<group>"; };
+		DAD244E91A24848300A6B512 /* WrongPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrongPasswordViewController.m; sourceTree = "<group>"; };
 		DADF5B921A09536C006BABAB /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		DADF5B931A09536C006BABAB /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
 		DADF5B961A0953CD006BABAB /* like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@3x.png"; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 		DA56545019F5880900D4AED6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DAD244E71A24846800A6B512 /* WrongPasswordViewController */,
 				DAE1CA061A232B8300D3FBF2 /* FBButtonViewController */,
 				DA56545119F5881B00D4AED6 /* ExamplesListViewController */,
 			);
@@ -320,6 +324,15 @@
 			path = WebCore;
 			sourceTree = "<group>";
 		};
+		DAD244E71A24846800A6B512 /* WrongPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAD244E81A24848300A6B512 /* WrongPasswordViewController.h */,
+				DAD244E91A24848300A6B512 /* WrongPasswordViewController.m */,
+			);
+			path = WrongPasswordViewController;
+			sourceTree = "<group>";
+		};
 		DADF5B911A09536C006BABAB /* Gfx */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +466,7 @@
 				DA83995619F42EAE005F6D9A /* AppDelegate.m in Sources */,
 				DA839A1A19F4314D005F6D9A /* POPGeometry.mm in Sources */,
 				DA56545419F5884400D4AED6 /* ExamplesListViewController.m in Sources */,
+				DAD244EA1A24848300A6B512 /* WrongPasswordViewController.m in Sources */,
 				DA839A2019F4314D005F6D9A /* TransformationMatrix.cpp in Sources */,
 				DA839A1219F4314D005F6D9A /* POPAnimationExtras.mm in Sources */,
 				DA839A1119F4314D005F6D9A /* POPAnimationEvent.mm in Sources */,
