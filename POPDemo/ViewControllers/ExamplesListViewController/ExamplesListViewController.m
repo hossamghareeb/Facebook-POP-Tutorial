@@ -20,7 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.examples = @[@"Example 1", @"Example 2", @"Example 3", @"Example 4", @"Example 5"];
+    self.examples = @[@"Facebook Like & Send", @"Wrong Password", @"Example 3", @"Example 4", @"Example 5"];
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.row) {
+        case 0:
+            [self performSegueWithIdentifier:@"openFB" sender:self];
+            break;
+        case 1:
+            [self performSegueWithIdentifier:@"openWrongPass" sender:self];
+            
+        default:
+            break;
+    }
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -35,7 +49,10 @@
     return cell;
 }
 
-
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 50.0;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

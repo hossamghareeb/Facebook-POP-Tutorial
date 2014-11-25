@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *view = self.view;
+    
+    if (view) { // if view not equal nil
+        //Do something
+    }
+    
 }
 
 
