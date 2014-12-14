@@ -39,6 +39,10 @@
 		DA839A2219F43221005F6D9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2119F43221005F6D9A /* UIKit.framework */; };
 		DA839A2419F43243005F6D9A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2319F43243005F6D9A /* CoreFoundation.framework */; };
 		DA839A2619F43248005F6D9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA839A2519F43248005F6D9A /* Foundation.framework */; };
+		DA8DFD3F1A3DB6170032B67C /* CustomVCTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8DFD3E1A3DB6170032B67C /* CustomVCTransitionViewController.m */; };
+		DA8DFD421A3DB84F0032B67C /* CustomModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8DFD411A3DB84F0032B67C /* CustomModalViewController.m */; };
+		DA8DFD461A3DC6610032B67C /* PresentingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8DFD451A3DC6610032B67C /* PresentingAnimationController.m */; };
+		DA8DFD491A3DC9690032B67C /* DismissingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8DFD481A3DC9690032B67C /* DismissingAnimationController.m */; };
 		DAD244EA1A24848300A6B512 /* WrongPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD244E91A24848300A6B512 /* WrongPasswordViewController.m */; };
 		DADF5B941A09536C006BABAB /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = DADF5B921A09536C006BABAB /* like.png */; };
 		DADF5B951A09536C006BABAB /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DADF5B931A09536C006BABAB /* like@2x.png */; };
@@ -131,6 +135,14 @@
 		DA839A2119F43221005F6D9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA839A2319F43243005F6D9A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DA839A2519F43248005F6D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA8DFD3D1A3DB6170032B67C /* CustomVCTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVCTransitionViewController.h; sourceTree = "<group>"; };
+		DA8DFD3E1A3DB6170032B67C /* CustomVCTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVCTransitionViewController.m; sourceTree = "<group>"; };
+		DA8DFD401A3DB84F0032B67C /* CustomModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModalViewController.h; sourceTree = "<group>"; };
+		DA8DFD411A3DB84F0032B67C /* CustomModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModalViewController.m; sourceTree = "<group>"; };
+		DA8DFD441A3DC6610032B67C /* PresentingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimationController.h; sourceTree = "<group>"; };
+		DA8DFD451A3DC6610032B67C /* PresentingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimationController.m; sourceTree = "<group>"; };
+		DA8DFD471A3DC9690032B67C /* DismissingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimationController.h; sourceTree = "<group>"; };
+		DA8DFD481A3DC9690032B67C /* DismissingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimationController.m; sourceTree = "<group>"; };
 		DAD244E81A24848300A6B512 /* WrongPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrongPasswordViewController.h; sourceTree = "<group>"; };
 		DAD244E91A24848300A6B512 /* WrongPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrongPasswordViewController.m; sourceTree = "<group>"; };
 		DADF5B921A09536C006BABAB /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
@@ -164,6 +176,8 @@
 		DA56545019F5880900D4AED6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DA8DFD431A3DC63A0032B67C /* Animators */,
+				DA8DFD3C1A3DB6070032B67C /* CustomVCTransitionViewController */,
 				DAD244E71A24846800A6B512 /* WrongPasswordViewController */,
 				DAE1CA061A232B8300D3FBF2 /* FBButtonViewController */,
 				DA56545119F5881B00D4AED6 /* ExamplesListViewController */,
@@ -324,6 +338,28 @@
 			path = WebCore;
 			sourceTree = "<group>";
 		};
+		DA8DFD3C1A3DB6070032B67C /* CustomVCTransitionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DFD3D1A3DB6170032B67C /* CustomVCTransitionViewController.h */,
+				DA8DFD3E1A3DB6170032B67C /* CustomVCTransitionViewController.m */,
+				DA8DFD401A3DB84F0032B67C /* CustomModalViewController.h */,
+				DA8DFD411A3DB84F0032B67C /* CustomModalViewController.m */,
+			);
+			path = CustomVCTransitionViewController;
+			sourceTree = "<group>";
+		};
+		DA8DFD431A3DC63A0032B67C /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DFD441A3DC6610032B67C /* PresentingAnimationController.h */,
+				DA8DFD451A3DC6610032B67C /* PresentingAnimationController.m */,
+				DA8DFD471A3DC9690032B67C /* DismissingAnimationController.h */,
+				DA8DFD481A3DC9690032B67C /* DismissingAnimationController.m */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
 		DAD244E71A24846800A6B512 /* WrongPasswordViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,9 +494,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA83995919F42EAE005F6D9A /* ViewController.m in Sources */,
+				DA8DFD3F1A3DB6170032B67C /* CustomVCTransitionViewController.m in Sources */,
 				DA839A1319F4314D005F6D9A /* POPAnimationRuntime.mm in Sources */,
 				DA56545719F58AE500D4AED6 /* ExampleCell.m in Sources */,
 				DA839A1F19F4314D005F6D9A /* POPVector.mm in Sources */,
+				DA8DFD461A3DC6610032B67C /* PresentingAnimationController.m in Sources */,
+				DA8DFD491A3DC9690032B67C /* DismissingAnimationController.m in Sources */,
 				DA839A1019F4314D005F6D9A /* POPAnimation.mm in Sources */,
 				DA839A1419F4314D005F6D9A /* POPAnimationTracer.mm in Sources */,
 				DA83995619F42EAE005F6D9A /* AppDelegate.m in Sources */,
@@ -480,6 +519,7 @@
 				DA83995319F42EAE005F6D9A /* main.m in Sources */,
 				DA839A1719F4314D005F6D9A /* POPCGUtils.mm in Sources */,
 				DA839A1C19F4314D005F6D9A /* POPMath.mm in Sources */,
+				DA8DFD421A3DB84F0032B67C /* CustomModalViewController.m in Sources */,
 				DA839A1819F4314D005F6D9A /* POPCustomAnimation.mm in Sources */,
 				DAE1CA091A232B8300D3FBF2 /* FacebookButtonAnimationViewController.m in Sources */,
 			);
@@ -611,10 +651,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hossam Ghareeb (5K6NTRJ3D7)";
 				INFOPLIST_FILE = POPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0c3c492-f0f5-4544-85bf-e6b69916f85f";
 			};
 			name = Debug;
 		};
@@ -626,6 +668,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0c3c492-f0f5-4544-85bf-e6b69916f85f";
 			};
 			name = Release;
 		};

@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.examples = @[@"Facebook Like & Send", @"Wrong Password", @"Example 3", @"Example 4", @"Example 5"];
+    self.examples = @[@"Facebook Like & Send", @"Wrong Password", @"Custom VC Transition", @"Example 4", @"Example 5"];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -31,6 +31,10 @@
             break;
         case 1:
             [self performSegueWithIdentifier:@"openWrongPass" sender:self];
+            break;
+        case 2:
+            [self performSegueWithIdentifier:@"openCustomTransition" sender:self];
+            break;
             
         default:
             break;

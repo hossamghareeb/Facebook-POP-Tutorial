@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LQs-8H-0wZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="LQs-8H-0wZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -48,11 +48,93 @@
                         <outlet property="examplesTableView" destination="s0Y-KT-M6F" id="ceV-JR-wk5"/>
                         <segue destination="orR-zS-1C7" kind="push" identifier="openFB" id="guk-jP-X0q"/>
                         <segue destination="OLz-pK-ET8" kind="push" identifier="openWrongPass" id="xef-cX-Vqh"/>
+                        <segue destination="a5t-ai-y5Q" kind="push" identifier="openCustomTransition" id="Tiu-aH-h8W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="686" y="331"/>
+        </scene>
+        <!--Custom VC Transition-->
+        <scene sceneID="VfW-gi-03c">
+            <objects>
+                <viewController id="a5t-ai-y5Q" customClass="CustomVCTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vR5-3O-zjV"/>
+                        <viewControllerLayoutGuide type="bottom" id="EPp-WE-WkV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="knO-Ow-Jct">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYl-Xh-osh">
+                                <rect key="frame" x="120" y="237" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XAm-ha-b12"/>
+                                    <constraint firstAttribute="height" constant="30" id="hPh-Oa-bxo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                                <state key="normal" title="Present">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickOnPresent:" destination="a5t-ai-y5Q" eventType="touchUpInside" id="tAV-2s-ctZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17436367119999999" green="0.71331487999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jYl-Xh-osh" firstAttribute="centerY" secondItem="knO-Ow-Jct" secondAttribute="centerY" id="hRa-Tv-hh5"/>
+                            <constraint firstItem="jYl-Xh-osh" firstAttribute="centerX" secondItem="knO-Ow-Jct" secondAttribute="centerX" id="ze8-2B-cr5"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Custom VC Transition" id="hSb-gx-e4P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f71-gl-ELe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822" y="-318"/>
+        </scene>
+        <!--Custom Modal View Controller-->
+        <scene sceneID="kTr-pQ-63g">
+            <objects>
+                <viewController storyboardIdentifier="customModal" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iQ9-dn-2dr" customClass="CustomModalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tLp-G6-0LE"/>
+                        <viewControllerLayoutGuide type="bottom" id="mfb-0p-fgy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TOP-BH-FoS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I51-go-41o">
+                                <rect key="frame" x="120" y="518" width="81" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="Qqa-ew-GYB"/>
+                                    <constraint firstAttribute="height" constant="30" id="viJ-Gx-ezd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="19"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didClickOnClose:" destination="iQ9-dn-2dr" eventType="touchUpInside" id="UpQ-wA-4lr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8862745098" green="0.39607843139999999" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="I51-go-41o" firstAttribute="bottom" secondItem="TOP-BH-FoS" secondAttribute="bottom" constant="-20" id="54k-bK-YoG"/>
+                            <constraint firstItem="I51-go-41o" firstAttribute="centerX" secondItem="TOP-BH-FoS" secondAttribute="centerX" id="FNP-wG-6V6"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rph-oa-2K3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1154" y="-318"/>
         </scene>
         <!--FacebookButtonAnimationViewController-->
         <scene sceneID="LEO-6E-d0U">
@@ -133,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nt-t6-0n8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1069" y="331"/>
+            <point key="canvasLocation" x="1248" y="331"/>
         </scene>
         <!--Wrong Password-->
         <scene sceneID="g85-S6-KxF">
@@ -162,6 +244,7 @@
                                     <constraint firstAttribute="height" constant="30" id="Kww-KX-dlV"/>
                                     <constraint firstAttribute="width" constant="106" id="kk1-OC-1gk"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Login">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
