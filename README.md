@@ -6,6 +6,6 @@ In this project you will find some simple demoes, they are not big demoes but I 
 
 
 
-![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/poo-animation-1-1.gif)
+![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-1-1.gif)
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/fb-demo.gif)
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/wrong-pass-demo.gif)
