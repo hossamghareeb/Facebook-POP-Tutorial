@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAD23FD21A7AB3E00042D2CA /* ExamplesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */; };
+		DAD23FD41A7AB72F0042D2CA /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */; };
 		F41D1AD01A43BE0200DB6970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1ACF1A43BE0200DB6970 /* main.m */; };
 		F41D1AD31A43BE0200DB6970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1AD21A43BE0200DB6970 /* AppDelegate.m */; };
 		F41D1AD91A43BE0200DB6970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41D1AD71A43BE0200DB6970 /* Main.storyboard */; };
 		F41D1ADB1A43BE0200DB6970 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41D1ADA1A43BE0200DB6970 /* Images.xcassets */; };
 		F41D1ADE1A43BE0200DB6970 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41D1ADC1A43BE0200DB6970 /* LaunchScreen.xib */; };
 		F41D1AEA1A43BE0200DB6970 /* POPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1AE91A43BE0200DB6970 /* POPDemoTests.m */; };
-		F41D1B441A43D0A900DB6970 /* ExamplesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1B431A43D0A900DB6970 /* ExamplesListViewController.m */; };
-		F41D1B481A43D38C00DB6970 /* ExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1B471A43D38C00DB6970 /* ExampleCell.m */; };
 		F4C812931A4805E200746B98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4C8125B1A4805E200746B98 /* InfoPlist.strings */; };
 		F4C812941A4805E200746B98 /* pop-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4C8125D1A4805E200746B98 /* pop-Info.plist */; };
 		F4C812951A4805E200746B98 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = F4C812621A4805E200746B98 /* POPAnimatableProperty.mm */; };
@@ -48,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAD23FD01A7AB3DF0042D2CA /* POPSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POPSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesListViewController.swift; sourceTree = "<group>"; };
+		DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
 		F41D1ACA1A43BE0200DB6970 /* POPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41D1ACE1A43BE0200DB6970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41D1ACF1A43BE0200DB6970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,10 +62,6 @@
 		F41D1AE31A43BE0200DB6970 /* POPSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41D1AE81A43BE0200DB6970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41D1AE91A43BE0200DB6970 /* POPDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPDemoTests.m; sourceTree = "<group>"; };
-		F41D1B421A43D0A900DB6970 /* ExamplesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesListViewController.h; sourceTree = "<group>"; };
-		F41D1B431A43D0A900DB6970 /* ExamplesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesListViewController.m; sourceTree = "<group>"; };
-		F41D1B461A43D38C00DB6970 /* ExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCell.h; sourceTree = "<group>"; };
-		F41D1B471A43D38C00DB6970 /* ExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCell.m; sourceTree = "<group>"; };
 		F4C8125C1A4805E200746B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4C8125D1A4805E200746B98 /* pop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
 		F4C8125E1A4805E200746B98 /* pop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pop-Prefix.pch"; sourceTree = "<group>"; };
@@ -137,6 +136,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAD23FC81A7AB3590042D2CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAD23FC91A7AB3720042D2CA /* ExamplesListViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DAD23FC91A7AB3720042D2CA /* ExamplesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */,
+				DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */,
+				DAD23FD01A7AB3DF0042D2CA /* POPSwiftDemo-Bridging-Header.h */,
+			);
+			path = ExamplesListViewController;
+			sourceTree = "<group>";
+		};
 		F41D1AC11A43BE0200DB6970 = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +175,8 @@
 		F41D1ACC1A43BE0200DB6970 /* POPDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F41D1B451A43D0DA00DB6970 /* ViewControllers */,
+				DAD23FC81A7AB3590042D2CA /* Controllers */,
+				F41D1B451A43D0DA00DB6970 /* Libs */,
 				F41D1AD11A43BE0200DB6970 /* AppDelegate.h */,
 				F41D1AD21A43BE0200DB6970 /* AppDelegate.m */,
 				F41D1AD71A43BE0200DB6970 /* Main.storyboard */,
@@ -195,16 +213,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F41D1B451A43D0DA00DB6970 /* ViewControllers */ = {
+		F41D1B451A43D0DA00DB6970 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
 				F4C8125A1A4805E200746B98 /* pop */,
-				F41D1B421A43D0A900DB6970 /* ExamplesListViewController.h */,
-				F41D1B431A43D0A900DB6970 /* ExamplesListViewController.m */,
-				F41D1B461A43D38C00DB6970 /* ExampleCell.h */,
-				F41D1B471A43D38C00DB6970 /* ExampleCell.m */,
 			);
-			name = ViewControllers;
+			name = Libs;
 			sourceTree = "<group>";
 		};
 		F4C8125A1A4805E200746B98 /* pop */ = {
@@ -386,8 +400,6 @@
 				F4C812A11A4805E200746B98 /* POPLayerExtras.mm in Sources */,
 				F4C812A61A4805E200746B98 /* TransformationMatrix.cpp in Sources */,
 				F4C812961A4805E200746B98 /* POPAnimation.mm in Sources */,
-				F41D1B481A43D38C00DB6970 /* ExampleCell.m in Sources */,
-				F41D1B441A43D0A900DB6970 /* ExamplesListViewController.m in Sources */,
 				F4C812981A4805E200746B98 /* POPAnimationExtras.mm in Sources */,
 				F41D1AD31A43BE0200DB6970 /* AppDelegate.m in Sources */,
 				F4C8129E1A4805E200746B98 /* POPCustomAnimation.mm in Sources */,
@@ -395,12 +407,14 @@
 				F4C8129C1A4805E200746B98 /* POPBasicAnimation.mm in Sources */,
 				F4C812971A4805E200746B98 /* POPAnimationEvent.mm in Sources */,
 				F4C812A51A4805E200746B98 /* POPVector.mm in Sources */,
+				DAD23FD41A7AB72F0042D2CA /* ExampleCell.swift in Sources */,
 				F4C812991A4805E200746B98 /* POPAnimationRuntime.mm in Sources */,
 				F4C8129A1A4805E200746B98 /* POPAnimationTracer.mm in Sources */,
 				F41D1AD01A43BE0200DB6970 /* main.m in Sources */,
 				F4C8129D1A4805E200746B98 /* POPCGUtils.mm in Sources */,
 				F4C8129B1A4805E200746B98 /* POPAnimator.mm in Sources */,
 				F4C812951A4805E200746B98 /* POPAnimatableProperty.mm in Sources */,
+				DAD23FD21A7AB3E00042D2CA /* ExamplesListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -540,6 +555,8 @@
 				INFOPLIST_FILE = POPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = POPSwiftDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "POPDemo/Controllers/ExamplesListViewController/POPSwiftDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -547,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -555,6 +573,7 @@
 				INFOPLIST_FILE = POPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = POPSwiftDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "POPDemo/Controllers/ExamplesListViewController/POPSwiftDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
