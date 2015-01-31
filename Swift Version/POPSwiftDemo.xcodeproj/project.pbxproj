@@ -10,6 +10,7 @@
 		DAA053231A7D75C900D5BF7B /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053201A7D75C900D5BF7B /* like.png */; };
 		DAA053241A7D75C900D5BF7B /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053211A7D75C900D5BF7B /* like@2x.png */; };
 		DAA053251A7D75C900D5BF7B /* like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053221A7D75C900D5BF7B /* like@3x.png */; };
+		DAA053281A7D775300D5BF7B /* WrongPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA053271A7D775300D5BF7B /* WrongPasswordViewController.swift */; };
 		DAD23FD21A7AB3E00042D2CA /* ExamplesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */; };
 		DAD23FD41A7AB72F0042D2CA /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */; };
 		DAD23FD71A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD61A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift */; };
@@ -55,6 +56,7 @@
 		DAA053201A7D75C900D5BF7B /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		DAA053211A7D75C900D5BF7B /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
 		DAA053221A7D75C900D5BF7B /* like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@3x.png"; sourceTree = "<group>"; };
+		DAA053271A7D775300D5BF7B /* WrongPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongPasswordViewController.swift; sourceTree = "<group>"; };
 		DAD23FD01A7AB3DF0042D2CA /* POPSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POPSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesListViewController.swift; sourceTree = "<group>"; };
 		DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
@@ -154,9 +156,18 @@
 			path = Gfx;
 			sourceTree = "<group>";
 		};
+		DAA053261A7D773F00D5BF7B /* WrongPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAA053271A7D775300D5BF7B /* WrongPasswordViewController.swift */,
+			);
+			path = WrongPasswordViewController;
+			sourceTree = "<group>";
+		};
 		DAD23FC81A7AB3590042D2CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DAA053261A7D773F00D5BF7B /* WrongPasswordViewController */,
 				DAD23FD51A7ABD9E0042D2CA /* FBButtonViewController */,
 				DAD23FC91A7AB3720042D2CA /* ExamplesListViewController */,
 			);
@@ -425,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD23FD71A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift in Sources */,
+				DAA053281A7D775300D5BF7B /* WrongPasswordViewController.swift in Sources */,
 				F4C8129F1A4805E200746B98 /* POPDecayAnimation.mm in Sources */,
 				F4C812A21A4805E200746B98 /* POPMath.mm in Sources */,
 				F4C812A01A4805E200746B98 /* POPGeometry.mm in Sources */,

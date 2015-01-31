@@ -220,7 +220,7 @@
         <!--Wrong Password-->
         <scene sceneID="g85-S6-KxF">
             <objects>
-                <viewController id="OLz-pK-ET8" customClass="WrongPasswordViewController" sceneMemberID="viewController">
+                <viewController id="OLz-pK-ET8" customClass="WrongPasswordViewController" customModule="POPSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="law-Cc-deq"/>
                         <viewControllerLayoutGuide type="bottom" id="Scz-lS-KUv"/>
@@ -249,7 +249,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="didClickOnLoginButton:" destination="OLz-pK-ET8" eventType="touchUpInside" id="kZA-Na-bET"/>
+                                    <action selector="didClickOnLoginButton:" destination="OLz-pK-ET8" eventType="touchUpInside" id="t67-Oy-e9t"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -263,7 +263,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Wrong Password" id="Kvo-Za-6W7"/>
                     <connections>
-                        <outlet property="passwordTextField" destination="6LD-Vz-8lC" id="ZYF-Pf-20j"/>
+                        <outlet property="passwordTextField" destination="6LD-Vz-8lC" id="GXd-lT-uWK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xgu-rf-rGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
