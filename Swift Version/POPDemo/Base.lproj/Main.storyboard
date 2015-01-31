@@ -139,7 +139,7 @@
         <!--FacebookButtonAnimationViewController-->
         <scene sceneID="LEO-6E-d0U">
             <objects>
-                <viewController id="orR-zS-1C7" userLabel="FacebookButtonAnimationViewController" customClass="FacebookButtonAnimationViewController" sceneMemberID="viewController">
+                <viewController id="orR-zS-1C7" userLabel="FacebookButtonAnimationViewController" customClass="FacebookButtonAnimationViewController" customModule="POPSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pC3-Ja-O8N"/>
                         <viewControllerLayoutGuide type="bottom" id="cBV-0K-UvX"/>
@@ -157,7 +157,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="orR-zS-1C7" id="9YJ-Sz-AfS"/>
+                                    <outlet property="delegate" destination="orR-zS-1C7" id="HOj-gT-6kF"/>
                                 </connections>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3B9-cp-zAP" userLabel="Container">
@@ -208,9 +208,9 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Facebook like &amp; send" id="xEd-1D-yFb"/>
                     <connections>
-                        <outlet property="likeButton" destination="sXA-8h-kZa" id="lrd-tg-wxG"/>
-                        <outlet property="msgTextField" destination="kSn-uy-w3H" id="guO-dz-RHb"/>
-                        <outlet property="sendButton" destination="2yA-FR-nIR" id="xH3-m9-cne"/>
+                        <outlet property="likeButton" destination="sXA-8h-kZa" id="5aq-da-j3A"/>
+                        <outlet property="msgTextField" destination="kSn-uy-w3H" id="lUT-IY-OcH"/>
+                        <outlet property="sendButton" destination="2yA-FR-nIR" id="3q4-B2-TD7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4nt-t6-0n8" userLabel="First Responder" sceneMemberID="firstResponder"/>

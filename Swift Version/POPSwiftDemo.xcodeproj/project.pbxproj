@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAA053231A7D75C900D5BF7B /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053201A7D75C900D5BF7B /* like.png */; };
+		DAA053241A7D75C900D5BF7B /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053211A7D75C900D5BF7B /* like@2x.png */; };
+		DAA053251A7D75C900D5BF7B /* like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA053221A7D75C900D5BF7B /* like@3x.png */; };
 		DAD23FD21A7AB3E00042D2CA /* ExamplesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */; };
 		DAD23FD41A7AB72F0042D2CA /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */; };
+		DAD23FD71A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD23FD61A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift */; };
 		F41D1AD01A43BE0200DB6970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1ACF1A43BE0200DB6970 /* main.m */; };
 		F41D1AD31A43BE0200DB6970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F41D1AD21A43BE0200DB6970 /* AppDelegate.m */; };
 		F41D1AD91A43BE0200DB6970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41D1AD71A43BE0200DB6970 /* Main.storyboard */; };
@@ -48,9 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAA053201A7D75C900D5BF7B /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		DAA053211A7D75C900D5BF7B /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		DAA053221A7D75C900D5BF7B /* like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@3x.png"; sourceTree = "<group>"; };
 		DAD23FD01A7AB3DF0042D2CA /* POPSwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POPSwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAD23FD11A7AB3E00042D2CA /* ExamplesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesListViewController.swift; sourceTree = "<group>"; };
 		DAD23FD31A7AB72F0042D2CA /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		DAD23FD61A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookButtonAnimationViewController.swift; sourceTree = "<group>"; };
 		F41D1ACA1A43BE0200DB6970 /* POPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41D1ACE1A43BE0200DB6970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41D1ACF1A43BE0200DB6970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -136,9 +144,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAA0531F1A7D75C900D5BF7B /* Gfx */ = {
+			isa = PBXGroup;
+			children = (
+				DAA053201A7D75C900D5BF7B /* like.png */,
+				DAA053211A7D75C900D5BF7B /* like@2x.png */,
+				DAA053221A7D75C900D5BF7B /* like@3x.png */,
+			);
+			path = Gfx;
+			sourceTree = "<group>";
+		};
 		DAD23FC81A7AB3590042D2CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DAD23FD51A7ABD9E0042D2CA /* FBButtonViewController */,
 				DAD23FC91A7AB3720042D2CA /* ExamplesListViewController */,
 			);
 			path = Controllers;
@@ -152,6 +171,14 @@
 				DAD23FD01A7AB3DF0042D2CA /* POPSwiftDemo-Bridging-Header.h */,
 			);
 			path = ExamplesListViewController;
+			sourceTree = "<group>";
+		};
+		DAD23FD51A7ABD9E0042D2CA /* FBButtonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAD23FD61A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift */,
+			);
+			path = FBButtonViewController;
 			sourceTree = "<group>";
 		};
 		F41D1AC11A43BE0200DB6970 = {
@@ -175,6 +202,7 @@
 		F41D1ACC1A43BE0200DB6970 /* POPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DAA0531F1A7D75C900D5BF7B /* Gfx */,
 				DAD23FC81A7AB3590042D2CA /* Controllers */,
 				F41D1B451A43D0DA00DB6970 /* Libs */,
 				F41D1AD11A43BE0200DB6970 /* AppDelegate.h */,
@@ -373,8 +401,11 @@
 			files = (
 				F41D1AD91A43BE0200DB6970 /* Main.storyboard in Resources */,
 				F4C812931A4805E200746B98 /* InfoPlist.strings in Resources */,
+				DAA053231A7D75C900D5BF7B /* like.png in Resources */,
 				F41D1ADE1A43BE0200DB6970 /* LaunchScreen.xib in Resources */,
+				DAA053241A7D75C900D5BF7B /* like@2x.png in Resources */,
 				F4C812941A4805E200746B98 /* pop-Info.plist in Resources */,
+				DAA053251A7D75C900D5BF7B /* like@3x.png in Resources */,
 				F41D1ADB1A43BE0200DB6970 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD23FD71A7ABDB00042D2CA /* FacebookButtonAnimationViewController.swift in Sources */,
 				F4C8129F1A4805E200746B98 /* POPDecayAnimation.mm in Sources */,
 				F4C812A21A4805E200746B98 /* POPMath.mm in Sources */,
 				F4C812A01A4805E200746B98 /* POPGeometry.mm in Sources */,
