@@ -11,3 +11,8 @@ Screenshots:
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-2.gif)
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-3-2.gif)
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-4.gif)
+
+License:
+===========
+
+This project is licensed under the terms of the MIT license.
