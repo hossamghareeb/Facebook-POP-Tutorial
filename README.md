@@ -1,10 +1,10 @@
-<h1 align="center">Facebook Pop Tutorial By Examples</h1>
+<h3 align="center">Facebook Pop Tutorial By Examples</h3>
 ---
 
 This project is a tutorial ([Check tutorial here](http://www.appcoda.com/facebook-pop-framework-intro/ "Facebook Pop Tutorial")) for how to use Pop framework by Facebook. Its very easy and effecient framework that helps you to make decent animation in no time. 
 In this project you will find some simple demoes, they are not big demoes but I promise you, they will help you in mastering the framework.
 
-<h1 align="center">Pop Examples</h1>
+<h3 align="center">Pop Examples</h3>
 ---
 
 ### Animate UITableView cells selection:
@@ -23,7 +23,7 @@ In this project you will find some simple demoes, they are not big demoes but I 
 
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-4.gif)
 
-<h1 align="center">License</h1>
+<h3 align="center">License</h3>
 ---
 
 The MIT License (MIT)
