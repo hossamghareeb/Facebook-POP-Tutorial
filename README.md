@@ -4,6 +4,24 @@
 This project is a tutorial ([Check tutorial here](http://www.appcoda.com/facebook-pop-framework-intro/ "Facebook Pop Tutorial")) for how to use Pop framework by Facebook. Its very easy and effecient framework that helps you to make decent animation in no time. 
 In this project you will find some simple demoes, they are not big demoes but I promise you, they will help you in mastering the framework.
 
+### What is Pop?
+Pop is an extensible animation engine for both iOS and OS X. In addition to basic animations including Linear, Ease-In, Ease-Out, Ease-In-Ease-Out animations, it supports spring (at the time of its release, spring animation was not supported in iOS), decay and custom animations:
+
+- Spring: dynamic animation that creates a nice bouncing effect.
+- Decay: dynamic animation that brings a movement to a smooth halt.
+- Custom: because the engine is designed to be extensible, you can create your own custom animations.
+
+The Pop API is very developer friendly that lets you easily build some realistic, physics-based interactions. For instance, here is the code snippet for creating a spring animation on a text label:
+
+```Objective-c
+POPSpringAnimation *sprintAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+sprintAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.9, 0.9)];
+sprintAnimation.velocity = [NSValue valueWithCGPoint:CGPointMake(2, 2)];
+sprintAnimation.springBounciness = 20.f;
+[self.textLabel pop_addAnimation:sprintAnimation forKey:@"springAnimation"];
+```
+Easy, right? Check the following examples to see what we can do with Pop.
+
 <h3 align="center">Pop Examples</h3>
 ---
 
