@@ -1,4 +1,4 @@
-<h3 align="center">Facebook Pop Tutorial By Examples</h3>
+<h3 align="center">Facebook's Pop Framework, By Examples</h3>
 ---
 
 This project is a tutorial ([Check tutorial here](http://www.appcoda.com/facebook-pop-framework-intro/ "Facebook Pop Tutorial")) for how to use Pop framework by Facebook. Its very easy and effecient framework that helps you to make decent animation in no time. 
