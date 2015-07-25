@@ -8,20 +8,19 @@ In this project you will find some simple demoes, they are not big demoes but I 
 ---
 
 ### Animate UITableView cells selection:
-
-![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-1-1.gif)
+<p align="center"><img src ="https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-1-1.gif"/></p>
 
 ### Facebook Messenger Send/Like animation:
 
-![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-2.gif)
+<p align="center"><img src ="https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-2.gif"/></p>
 
 ### UITextField wrong entry animation:
 
-![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-3-2.gif)
+<p align="center"><img src ="https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-3-2.gif"/></p>
 
 ### Custom Transition for Modal ViewControllers:
 
-![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-4.gif)
+<p align="center"><img src ="https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-4.gif"/></p>
 
 <h3 align="center">License</h3>
 ---
