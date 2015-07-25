@@ -1,18 +1,49 @@
-Facebook POP Tutorial
-===========
+<h1 align="center">Facebook Pop Tutorial By Examples</h1>
+---
 
 This project is a tutorial ([Check tutorial here](http://www.appcoda.com/facebook-pop-framework-intro/ "Facebook Pop Tutorial")) for how to use Pop framework by Facebook. Its very easy and effecient framework that helps you to make decent animation in no time. 
 In this project you will find some simple demoes, they are not big demoes but I promise you, they will help you in mastering the framework.
 
-Screenshots:
-===========
+<h1 align="center">Pop Examples</h1>
+---
+
+### Animate UITableView cells selection:
 
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-1-1.gif)
+
+### Facebook Messenger Send/Like animation:
+
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-2.gif)
+
+### UITextField wrong entry animation:
+
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-3-2.gif)
+
+### Custom Transition for Modal ViewControllers:
+
 ![alt tag](https://github.com/most-wanted/Facebook-POP-Tutorial/blob/master/screenshots/pop-animation-4.gif)
 
-License:
-===========
+<h1 align="center">License</h1>
+---
 
-This project is licensed under the terms of the MIT license.
+The MIT License (MIT)
+
+**Copyright (c) 2014 Hossam Ghareeb (hossam.ghareb@gmail.com)**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
