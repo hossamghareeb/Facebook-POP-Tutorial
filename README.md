@@ -20,7 +20,11 @@ sprintAnimation.velocity = [NSValue valueWithCGPoint:CGPointMake(2, 2)];
 sprintAnimation.springBounciness = 20.f;
 [self.textLabel pop_addAnimation:sprintAnimation forKey:@"springAnimation"];
 ```
-Easy, right? Check the following examples to see what we can do with Pop.
+
+<h3 align="center">For Swift Lovers</h3>
+---
+Navigate to this "Swift Version" folder or ([click here](https://github.com/hossamghareeb/Facebook-POP-Tutorial/tree/master/Swift%20Version "Swift Version")) to see the full working exmples written in Swift.
+
 
 <h3 align="center">Pop Examples</h3>
 ---
